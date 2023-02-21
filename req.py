@@ -12,4 +12,4 @@ def ping_server(message):
   json_message =  {"message": message } 
   requests.post(SERVER_URL, json=json_message)
 
-ping_server("Hello World!")
+ping_server("Hello ur mother!")
